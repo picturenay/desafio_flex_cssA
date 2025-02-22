@@ -1,0 +1,109 @@
+.contenedor-layout {
+    display: flex; 
+    gap: 1%;
+    height:100vh;
+  }
+  
+  
+  .left-column {
+    display: flex;
+    flex-direction: column; 
+    gap: 0px; 
+    width: 15%; 
+  }
+  
+  
+  .card {
+    display: flex;
+    flex: 1 1 200px;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 0; /*lo redondito */
+    text-align: center;
+  }
+
+
+  .card-image{ 
+    max-width: 22%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .card-boton{
+    display: flex;
+    flex: 2 1 250px;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 0; /*lo redondito */
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .card-estado{
+    display: flex;
+    flex: 0.75 1 150px;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 0; /*lo redondito */
+    text-align: center;
+  }
+
+  .texto-card{
+    font-size: 0.7em;
+    margin: 0;
+    text-align: left;
+  }
+
+  .texto-card h4,
+  .texto-card p{
+    margin: 0;
+  }
+
+.ico1{
+    margin-left: auto;
+     }
+.boton{ 
+    background-color: #d8b4fe; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 1em; 
+  border-radius: 5px; 
+  cursor: pointer; /
+}
+.boton:hover {
+    background-color: #c084fc; 
+
+}
+
+
+.main-section {
+    flex: 1; 
+    background-color: #fff;
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height:100vh;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .texto{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.texto h1,
+.texto p{
+margin: 0;
+}
